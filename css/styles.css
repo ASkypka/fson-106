@@ -3,9 +3,6 @@ body {
     background: #fafafa;
 }
 
-
-
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -132,5 +129,3 @@ address {
 .ingrid-pic {
     margin-bottom: 36px;
 }
-
-.ingrid-text {}
