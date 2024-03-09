@@ -1,8 +1,34 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
-
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+}
+.container {
+    width: 1168px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+span {
+    color: #fd9222;
+}
 /* benefits */
 .benefits {
 }
@@ -15,3 +41,50 @@ body {
 .benefits-text {
 }
 /* benefits / */
+/* sellers / */
+
+.sellers{
+    padding: 60px 0px;
+}
+.sellers-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sellers-list {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.sellers-img{
+    border-radius: 15px 15px 0 0;
+}
+.sellers-item {
+    border-radius: 15px 15px 15px 15px;
+    width: calc((100% - 32) / 3);
+}
+.container-text{
+    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+    border-left: 1px solid rgba(17, 17, 17, 0.1);
+    border-right: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 0 0 15px 15px;
+    background: #fff;
+    padding-top: 28px;
+    padding-bottom: 28px;
+
+}
+.sellers-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
